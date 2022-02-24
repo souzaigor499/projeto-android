@@ -43,6 +43,7 @@ header{
     min-width: 300px;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 20px;
     background-image: linear-gradient(to bottom, var(--azulmedio), var(--azulescuro), black);
     
 }
@@ -64,7 +65,6 @@ header > p{
     color: var(--branco);
     max-width: 500px;
     margin: auto;
-    margin-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     text-shadow: 1px 1px 1px #00000069;
@@ -74,12 +74,14 @@ header > p{
 nav{
     background-color: black;
     padding: 10px;
+    padding-bottom: 1px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.301);
 }
 
 nav > a{
+    display: inline-block;
     color: var(--verde);
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 3px;
